@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #080D1A;
+    color: #F8FAFC;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #080D1A;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1C2A47;
+    border-radius: 4px;
+    border: 2px solid #080D1A;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2563EB;
+  }
+}
+
+@layer utilities {
+  .bg-radial-gradient {
+    background-radial-gradient: radial-gradient(circle at 50% 50%, var(--tw-gradient-stops));
+  }
+
+  .text-glow {
+    text-shadow: 0 0 25px rgba(96, 165, 250, 0.45);
+  }
+
+  .border-glass {
+    border: 1px solid rgba(148, 163, 184, 0.12);
+  }
+
+  .border-glass-glow {
+    border: 1px solid rgba(96, 165, 250, 0.25);
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.12);
+  }
+}
+
+/* Background Ambient Canvas Glow */
+.bg-ambient-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
