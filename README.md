@@ -140,6 +140,16 @@ Add screenshots of this portfolio website to a `screenshots/` folder in the repo
 
 You can add more screenshots of the About, Skills, Experience, and Contact sections as needed.
 
+
+
+## Screenshots
+
+### Homepage
+
+![Personal Portfolio Homepage](screenshots/homepage.png)
+
+
+
 ## Contact
 
 - **Email:** [pirzadatabish18@gmail.com](mailto:pirzadatabish18@gmail.com)
